@@ -1,0 +1,57 @@
+// header
+@import ./_header
+// navbar
+@import ./_navbar
+// body
+@import ./_body
+// footer
+@import ./_footer
+
+
+// style.scss
+
+// Variables
+$primary: #007bff
+$dark: #343a40
+$light: #f8f9fa
+$white: #fff
+
+
+
+// Custom Mixins
+@mixin section-padding 
+  padding: $section-padding
+
+
+@mixin bg-overlay($color, $opacity) 
+  position: relative
+  &::before 
+    content: ''
+    position: absolute
+    top: 0
+    left: 0
+    width: 100%
+    height: 100%
+    background-color: rgba($color, $opacity)
+  
+
+
+// General Styles
+body 
+  font-family: system-ui, -apple-system, sans-serif
+
+
+.section-title 
+  margin-bottom: 3rem
+  text-align: center
+  
+  small 
+    color: $primary
+    font-weight: 600
+    text-transform: uppercase
+  
+  
+  h2 
+    margin-top: 1rem
+    font-weight: 700
+  

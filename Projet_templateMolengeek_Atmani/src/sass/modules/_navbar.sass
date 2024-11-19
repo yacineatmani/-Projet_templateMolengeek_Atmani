@@ -1,0 +1,41 @@
+// Navbar styles
+.navbar
+  display: flex
+  justify-content: flex-start // Le logo sera à gauche
+  align-items: center
+  width: 100%
+
+  .container
+    display: flex
+    width: 100% // Prenez toute la largeur de l'écran
+    padding: 0
+    padding: 0 10rem 
+    align-items: center // Centrer verticalement tous les éléments
+
+  // Logo
+  .navbar-brand
+    font-size: 2.5rem
+    font-weight: bold
+    color: #000 // Couleur du texte du logo
+    
+
+    .text-primary
+      color: #007bff // Couleur du point en bleu
+
+  // Liste de navigation
+  .navbar-nav
+    display: flex
+    justify-content: flex-start // Les éléments sont alignés à gauche
+    padding: 0
+    margin: 0
+   
+    margin-left: auto // Permet à la navigation de s'étendre vers la droite pour occuper l'espace restant
+
+    .nav-item
+      margin-left: 1rem // Ajoute un espacement entre les éléments de la nav
+
+    .nav-link
+      text-decoration: none
+      color: #333 // Couleur de texte de la navigation
+      &:hover
+        color: #007bff // Couleur du texte au survol
