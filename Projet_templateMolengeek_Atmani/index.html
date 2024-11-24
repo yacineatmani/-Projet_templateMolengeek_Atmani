@@ -4,21 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Projet_templateMolengeek_Atmani</title>
+    <link href="https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&display=swap" rel="stylesheet">
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 
     <!-- Inclure Bootstrap via CDN -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Ajouter Font Awesome CDN dans la section <head> -->
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 
     <!-- Votre propre fichier CSS -->
     <link rel="stylesheet" href="public/css/app.css">
 </head>
 <body>
-    
-<!-- Navbar -->
 <!-- Navbar -->
 <nav class="navbar navbar-expand-lg">
-    <div class="container">
+    <div class="container" style="max-width: 1200px;">
         <!-- Logo -->
-        <a class="navbar-brand" href="#">MolenGeek<span class="text-primary">.</span></a>
+        <a class="navbar-brand fs-2" href="#">MolenGeek<span class="text-primary">.</span></a>
         
         <!-- Toggler button for small screens -->
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
@@ -26,8 +29,8 @@
         </button>
         
         <!-- Navigation menu -->
-        <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
+        <div class="collapse navbar-collapse fs-6" id="navbarNav">
+            <ul class="navbar-nav ms-auto font-weight-bolder">
                 <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
                 <li class="nav-item"><a class="nav-link" href="#featured">Featured</a></li>
                 <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
@@ -40,7 +43,360 @@
 </nav>
 
 
+<section class="hero" id="home">
+    <div class="container" style="max-width: 1100px;">
+        <div class="row flex-column">
+          <h1 class="text-dark fs-1">Welcome to <span>MolenGeek</span></h1>
+            <div class="col-lg-6">
+                <p class="lead mb-4 text-dark-emphasis">Mon projet du vendredi</p>
+                <button class="btn btn-primary btn-lg">GET STARTED</button>
+            </div>
+        </div>
+    </div>
+</section>
 
+<!-- Features Section -->
+<section class="features" id="features">
+    <div class="container" style="max-width: 900px;">
+        <div class="section-title text-center mb-5">
+            <button type="button" class="fs-6 btn btn-sm "><small>Features Services</small></button>
+            <h2 class="text-primary fs-2"><span class="text-dark">Read</span> Featured Services</h2>
+        </div>
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 mx-auto gap-4">
+            <!-- Feature Card 1 -->
+            <div class="col">
+                <div class="card shadow-sm border-0">
+                    <div class="card-body text-start">
+                        <div class="feature-icon mb-3">
+                          <i class="fa-brands fa-dribbble fa-lg" style="color: #007bff;"></i>                        </div>
+                        <h5 class="card-title">Lorem ipsum</h5>
+                        <p class="card-text">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Feature Card 2 -->
+            <div class="col">
+                <div class="card shadow-sm border-0">
+                    <div class="card-body text-start">
+                        <div class="feature-icon mb-3">
+                          <img src="public/img/file-text (3).svg" alt="">
+                        </div>
+                        <h5 class="card-title">Lorem ipsum</h5>
+                        <p class="card-text">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Feature Card 3 -->
+            <div class="col">
+                <div class="card shadow-sm border-0">
+                    <div class="card-body text-start">
+                        <div class="feature-icon mb-3">
+                          <img src="public/img/spdd.svg" alt=""> 
+                        </div>
+                        <h5 class="card-title">Lorem ipsum</h5>
+                        <p class="card-text">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Feature Card 4 -->
+            <div class="col">
+                <div class="card shadow-sm border-0">
+                    <div class="card-body text-start">
+                        <div class="feature-icon mb-3">
+                          <i class="fa-solid fa-earth-americas"></i>                        </div>
+                        <h5 class="card-title">Lorem ipsum</h5>
+                        <p class="card-text">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Testimonials Section -->
+<section class="testimonials3" id="testimonials3">
+    <div class="carousel slide" id="carouselExample" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <!-- Carousel Item 1 -->
+        <div class="carousel-item active">
+          <img src="public/img/testi.jpg" class="d-block w-100 img-fluid" alt="Testimonial Image">
+          <div class="carousel-caption d-flex flex-column justify-content-center align-items-center">
+            <h5 class="text-primary display-4">Testimonials 3</h5>
+            <p class="text-white lead">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus nemo enim consequuntur dignissimos iste, tempora et adipisci velit iure animi praesentium asperiores deleniti! Ipsum, quaerat temporibus.
+            </p>
+            <p class="text-white lead">
+              Lorem ipsum dolor sit amet oui céca consectetur adipisicing elit. Maiores, esse rerum bla blabla bla delectus corporis aut ex plouf non? Laborum encorum nulla impedit dolore ad ex nemo reprehenderit qui?
+            </p>
+          </div>
+        </div>
+      </div>
+      <!-- Carousel Controls -->
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+
+
+
+
+ 
+        <section class="services-section py-3">
+            <div class="container" style="max-width: 900px;">
+              <!-- Section Title -->
+              <div class="text-center mb-5">
+                <button class="btn btn-primary mb-3 fs-6">Services</button>
+                <h2 class="mb-3">Check our <span class="text-primary">Services</span></h2>
+                <p class="text-muted mx-5 multi-line-text">
+                  Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita et voluptas atque vitae autem.
+                </p> 
+              </div>
+          
+              <!-- Service Blocks -->
+              <div class="row g-4">
+                <!-- Service 1 -->
+                <div class="col-md-4">
+                  <div class="service-box text-center p-4 border">
+                    <div class="icon-circle bg-light mx-auto mb-3">
+                      <i class="fa-brands fa-dribbble"></i>
+                    </div>
+                    <h5 class="fw-bold p-2">Lorem Ipsum</h5>
+                    <p class="text-muted small mb-1">Voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi.</p>
+                  </div>
+                </div>
+          
+                <!-- Service 2 -->
+                <div class="col-md-4">
+                  <div class="service-box text-center p-4 border">
+                    <div class="icon-circle bg-light mx-auto mb-3">
+                      <img src="public/img/file-text (3).svg" alt="">
+                    </div>
+                    <h5 class="fw-bold p-2">Sed ut perspiciatis</h5>
+                    <p class="text-muted small mb-1">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore.</p>
+                  </div>
+                </div>
+          
+                <!-- Service 3 -->
+                <div class="col-md-4">
+                  <div class="service-box text-center p-4 border">
+                    <div class="icon-circle bg-light mx-auto mb-3">
+                      <img src="public/img/spdd.svg" alt="">
+                    </div>
+                    <h5 class="fw-bold p-2">Magni Dolores</h5>
+                    <p class="text-muted small">Excepturi sint occaecat cupidatat non proident, sunt in culpa qui officia.</p>
+                  </div>
+                </div>
+                
+                <!-- Service 4 -->
+                <div class="col-md-4">
+                  <div class="service-box text-center p-4 border">
+                    <div class="icon-circle bg-light mx-auto mb-3">
+                      <i class="fa-solid fa-earth-americas"></i>
+                    </div>
+                    <h5 class="fw-bold p-2">Nemo Enim</h5>
+                    <p class="text-muted small">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis.</p>
+                  </div>
+                </div>
+          
+                <!-- Service 5 -->
+                <div class="col-md-4">
+                  <div class="service-box text-center p-4 border">
+                    <div class="icon-circle bg-light mx-auto mb-3">
+                      <img src="public/img/play(1).png" alt="">
+                    </div>
+                    <h5 class="fw-bold p-2">Dele cardo</h5>
+                    <p class="text-muted small">Quis consequatur saepe eligendi voluptatem  dolor consequuntur.</p>
+                  </div>
+                </div>
+          
+                <!-- Service 6 -->
+                <div class="col-md-4">
+                  <div class="service-box text-center p-4 border">
+                    <div class="icon-circle bg-light mx-auto mb-3">
+                      <i class="fa-solid fa-archway"></i>
+                    </div>
+                    <h5 class="fw-bold p-2">Divera don</h5>
+                    <p class="text-muted small">Modi nostrum vel laborum. Porro fugit error minus sapiente sit aspernatur.</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          
+
+
+
+
+
+
+
+
+          <!-- Team Section -->
+<section class="team py-3" id="team">
+  <div class="container-fluid py-3 bg-light w-100 h-100"> 
+
+  <!-- Section Title -->
+  <div class="container" style="max-width: 900px;">
+  <div class="section-title text-center mb-5">
+    <button type="button" class="btn btn-primary btn-sm fs-6"><small>TEAM</small></button>
+    <h2 class="text-primary fs-2 mt-3">Our Hardworking <span class="text-dark">Team</span></h2>
+    <p class="text-muted mx-5 multi-line-text">
+      Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita et voluptas atque vitae autem.
+    </p>
+  </div>
+</div>
+  
+  <!-- Team Members -->
+  <div class="row g-4 mx-auto" style="max-width: 900px;">
+      <!-- Member 1 -->
+      <div class="col-md-3">
+        <div class="card">
+          <img src="/Projet_templateMolengeek_Atmani/public/img/team/team-1.jpg" class="card-img-top" alt="Walter White">
+          <div class="card-body text-center">
+            <h5 class="card-title">Walter White</h5>
+            <p class="card-text text-muted">Chief Executive Officer</p>
+          </div>
+        </div>
+      </div>
+      <!-- Member 2 -->
+      <div class="col-md-3">
+        <div class="card">
+          <img src="/Projet_templateMolengeek_Atmani/public/img/team/team-2.jpg" class="card-img-top" alt="Sarah Johnson">
+          <div class="card-body text-center">
+            <h5 class="card-title">Sarah Johnson</h5>
+            <p class="card-text text-muted">Product Manager</p>
+          </div>
+        </div>
+      </div>
+      <!-- Member 3 -->
+      <div class="col-md-3">
+        <div class="card">
+          <img src="/Projet_templateMolengeek_Atmani/public/img/team/team-3.jpg" class="card-img-top" alt="William Anderson">
+          <div class="card-body text-center">
+            <h5 class="card-title">William Anderson</h5>
+            <p class="card-text text-muted">CTO</p>
+          </div>
+        </div>
+      </div>
+      <!-- Member 4 -->
+      <div class="col-md-3">
+        <div class="card">
+          <img src="/Projet_templateMolengeek_Atmani/public/img/team/team-4.jpg" class="card-img-top" alt="Amanda Jepson">
+          <div class="card-body text-center">
+            <h5 class="card-title">Amanda Jepson</h5>
+            <p class="card-text text-muted">Accountant</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
+
+
+
+
+
+
+
+  <section class="contact-section py-4 w-100">
+    <div class="container" style="max-width: 900px;">
+      <!-- Title and Subtitle -->
+      <div class="text-center mb-4">
+        <button type="button" class="btn btn-primary btn-sm"> <small>CONTACT</small></button>
+               <h2 class="text-primary fs-2">Contact Us</h2>
+               <p class="text-muted mx-5 multi-line-text">
+                Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita et voluptas atque vitae autem.
+              </p>
+            </div>
+  
+      <!-- Two Columns -->
+      <div class="row g-4 ">
+        <!-- Left Column: Our Address -->
+        <div class="col-md-6 d-flex flex-column">
+          <div class="card border-0 shadow-sm text-center p-3 h-100">
+            <div class="icon-circle bg-light mx-auto mb-3">
+              <i class="fa-solid fa-location-dot"></i>
+            </div>
+            <h6 class="fw-bold text-secondary">Our Address</h6>
+            <p class=" text-secondary text-muted small">Place de la Minoterie 10, 1080 Molenbeek-Saint-Jean</p>
+          </div>
+          <div class="map-container mt-3">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2518.168679866877!2d4.33703081590864!3d50.8503469795326!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c480bae42c03%3A0x355dcb11ddcc0de2!2sPl.%20de%20la%20Minoterie%2010%2C%201080%20Molenbeek-Saint-Jean%2C%20Belgium!5e0!3m2!1sen!2sfr!4v1662479114852!5m2!1sen!2sfr" 
+              width="100%" height="350" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+  
+        <!-- Right Column: Email Us, Phone Us, Form -->
+        <div class="col-md-6 d-flex flex-column">
+          <div class="row g-2 mb-3">
+            <div class="col-6">
+              <div class="card border-0 shadow-sm text-center p-3 h-100">
+                <div class="icon-circle bg-light mx-auto mb-3">
+                  <i class="fa-regular fa-envelope"></i>
+                </div>
+                <h6 class="fw-bold text-secondary">Email Us</h6>
+                <p class="text-secondary text-muted small">info@molengeek.com</p>
+              </div>
+            </div>
+            <div class="col-6">
+              <div class="card border-0 shadow-sm text-center p-3 h-100">
+                <div class="icon-circle bg-light mx-auto mb-2">
+                  <img  src="public/img/phon.svg" alt="">
+                </div>
+                <h6 class="fw-bold text-secondary">Call Us</h6>
+                <p class="text-secondary text-muted small">+1 5589 55488 55</p>
+              </div>
+            </div>
+          </div>
+          <div class="card border-0 shadow-sm p-4 flex-grow-1">
+            <form>
+              <div class="row g-2">
+                <div class="col-md-6">
+                  <input type="text" class="form-control" placeholder="Your Name">
+                </div>
+                <div class="col-md-6">
+                  <input type="email" class="form-control" placeholder="Your Email">
+                </div>
+              </div>
+              <div class="mt-3">
+                <input type="text" class="form-control" placeholder="Subject">
+              </div>
+              <div class="mt-3">
+                <textarea class="form-control" rows="4" placeholder="Message"></textarea>
+              </div>
+              <div class="mt-3 d-flex justify-content-center">
+                <button type="submit" class=" btno btn-sm m-1">Send Message</button>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+
+  <!-- Footer -->
+  <footer class="d-flex align-items-center py-3 bg-light">
+    <div class="container mx-auto" style="max-width: 900px;">
+      <!-- Utilisation de d-flex et justify-content-between pour séparer les éléments -->
+      <div class="d-flex justify-content-between w-100">
+        <p class="text-muted mb-0">© Copyright <span class="text-dark fw-bold">MolenGeek</span>. All Rights Reserved</p>
+        <p class="small text-muted mb-0">Designed by <span class="text-primary fw-bold">MolenGeek</span></p>
+      </div>
+    </div>
+  </footer>
 
     <!-- Inclusion du bundle JavaScript de Bootstrap via CDN -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
