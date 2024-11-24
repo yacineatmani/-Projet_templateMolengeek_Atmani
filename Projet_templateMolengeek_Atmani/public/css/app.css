@@ -310,14 +310,14 @@ h1, h2, h3 {
 }
 .testimonials3 .carousel-inner .carousel-item .carousel-caption p {
   font-size: 0.7rem;
-  color: white;
+  color: #fff;
   margin: 0 auto;
   max-width: 1200px;
   line-height: 1.6;
 }
 .testimonials3 .carousel-control-prev-icon,
 .testimonials3 .carousel-control-next-icon {
-  filter: invert(1);
+  color: #fff;
 }
 
 .team {
