@@ -27,7 +27,7 @@ h1, h2, h3 {
 }
 
 .navbar {
-  padding: 1rem 0;
+  padding: 2rem 0.5rem;
   transition: all 0.3s;
 }
 .navbar.scrolled {
