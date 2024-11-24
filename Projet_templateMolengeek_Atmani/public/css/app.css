@@ -430,7 +430,7 @@ h1, h2, h3 {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  outline: dashed #007bff;
+  outline: 0.5px dashed #007bff;
   display: flex;
   align-items: center;
   justify-content: center;
