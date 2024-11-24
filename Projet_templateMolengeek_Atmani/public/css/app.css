@@ -397,6 +397,7 @@ h1, h2, h3 {
   text-align: center;
 }
 .team .card .card-body .card-title {
+  color: #343a40;
   font-size: 1.25rem;
   font-weight: bold;
   margin-bottom: 0.5rem;
